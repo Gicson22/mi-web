@@ -1,0 +1,24 @@
+<div id="about"
+     data-aos="flip-left"
+     class="container">
+  <section class="about-me">
+    <div class="about-me__title">
+      <p class="about-me__subtitle">ACERCA DE MÍ</p>
+      <p class="about-me__main-title">BIENVENIDO A MI PÁGINA WEB</p>
+      <p class="about-me__main-description">Apasionado con el mundo de la programación, he venido preparándome en
+        desarrollo
+        web usando las tecnologías de este entorno como lo son HTML, CSS, JavaScript, asimismo he ido consolidando
+        dichos conocimientos con el aprendizaje y aplicación del framework ANGULAR en proyectos personales; conozco el
+        stack adicional que complementa dicho aprendizaje como el gestor de versiones Git con GitHub, GitLab y comandos
+        Linux; por el lado del backend conozco Python y SQLServer, estos saberes están acompañados del conocimiento a
+        nivel conceptual de la metodología agil Scrum.</p>
+    </div>
+
+    <div class="about-me__skills">
+      <gicson-progress-bar *ngFor="let skill of skills"
+                           [bar]="skill"
+                           class="abaut-me__skill"></gicson-progress-bar>
+    </div>
+
+  </section>
+</div>

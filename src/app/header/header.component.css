@@ -1,0 +1,45 @@
+nav {
+  height: 80px;
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.scrolling {
+  background: #000;
+  transition: 0.5s;
+}
+
+.header__items {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+
+.header__items li a {
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header__items li a:hover {
+  color: #037ef3;
+}
+
+.header__items li {
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__items {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .header__items li:last-child,
+  .header__items li:nth-child(3) {
+    margin-right: 0;
+  }
+}
