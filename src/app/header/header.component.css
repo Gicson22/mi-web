@@ -36,6 +36,8 @@ nav {
   .header__items {
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .header__items li:last-child,
