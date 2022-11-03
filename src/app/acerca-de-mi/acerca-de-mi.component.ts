@@ -16,6 +16,7 @@ export class AcercaDeMiComponent implements OnInit {
     { title: 'GitHub', bg: '#007bff', percent: '70%' },
     { title: 'Bootstrap', bg: 'green', percent: '80%' },
     { title: 'Sql Server', bg: '#007ea7', percent: '60%' },
+    { title: 'Java Springboot', bg: '#6c757d', percent: '60%' },
     { title: 'Python', bg: '#f85e00', percent: '60%' },
   ];
 
