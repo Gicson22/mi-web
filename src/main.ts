@@ -10,3 +10,5 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+// Desarrollador Full Stack, Gicson Nelson Rivas Seminario.
